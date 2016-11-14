@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/VRND-Course2/Scenes/UnlitApartmentScene.unity
-  isLoaded: 1
-  isActive: 1
