@@ -18,7 +18,7 @@ public class Door : MonoBehaviour
 
 		gameObject.transform.position = new Vector3 (
 			gameObject.transform.position.x, 
-			gameObject.transform.position.y + 10, 
+			gameObject.transform.position.y + 20, 
 			gameObject.transform.position.z);
 
 
