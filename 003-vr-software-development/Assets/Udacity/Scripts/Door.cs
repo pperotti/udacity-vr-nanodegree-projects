@@ -14,5 +14,13 @@ public class Door : MonoBehaviour
     public void Unlock()
     {
         // You'll need to set "locked" to true here
+		Debug.Log("Unlock");
+
+		gameObject.transform.position = new Vector3 (
+			gameObject.transform.position.x, 
+			gameObject.transform.position.y + 10, 
+			gameObject.transform.position.z);
+
+
     }
 }
