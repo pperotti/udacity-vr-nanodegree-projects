@@ -21,7 +21,7 @@ public class Waypoint : MonoBehaviour
 	private State  		_state					= State.Idle;
 	private Color		_color_origional		= new Color(0.0f, 1.0f, 0.0f, 0.5f);
 	private Color		_color					= Color.white;
-	private float 		_scale					= 3.0f;
+	private float 		_scale					= 1.0f;
 	private float 		_animated_lerp			= 1.0f;
 	private AudioSource _audio_source			= null;
 	private Material	_material				= null;
@@ -39,8 +39,8 @@ public class Waypoint : MonoBehaviour
 	[Header("State Animation Scales")]
 	public float scale_clicked_max				= 0.0f;
 	public float scale_animation				= 3.0f;	
-	public float scale_idle_min 				= 3.0f;
-	public float scale_idle_max 				= 3.0f;
+	public float scale_idle_min 				= 0.0f;
+	public float scale_idle_max 				= 0.0f;
 	public float scale_focus_min				= 0.0f;
 	public float scale_focus_max				= 0.0f;
 
