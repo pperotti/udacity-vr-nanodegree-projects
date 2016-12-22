@@ -8,11 +8,10 @@ public class Key : MonoBehaviour
 	public GameObject keyPoof;
 
 	//Collects the status of the key
-	bool isCollected = false;
+	public static bool isCollected = false;
 
-	void Update()
-	{
-		//Bonus: Key Animation
+	void Start() {
+		isCollected = false;
 	}
 
 	public void OnKeyClicked()
@@ -22,7 +21,7 @@ public class Key : MonoBehaviour
         // Call the Unlock() method on the Door
         // Destroy the key. Check the Unity documentation on how to use Destroy
 
-		Debug.Log ("OnKeyClicked");
+		Debug.Log ("OnKeyClicked " + isCollected);
 
 		isCollected = true;
 
@@ -33,9 +32,4 @@ public class Key : MonoBehaviour
 
 		Destroy (gameObject);
     }
-
-	public bool isKeyCollected() {
-		return isCollected;
-	}
-
 }
