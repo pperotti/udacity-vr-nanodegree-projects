@@ -6,7 +6,9 @@ public class Key : MonoBehaviour
 {
     //Create a reference to the KeyPoofPrefab and Door
 	public GameObject keyPoof;
-	public Door doorToOpen;
+
+	//Collects the status of the key
+	bool isCollected = false;
 
 	void Update()
 	{
@@ -22,13 +24,18 @@ public class Key : MonoBehaviour
 
 		Debug.Log ("OnKeyClicked");
 
+		isCollected = true;
+
 		Object.Instantiate(keyPoof, transform.position, Quaternion.Euler(270,0,0));
 
-		doorToOpen.Unlock ();
+		//The door reacts to the update of the key status. The following line is no longer needed.
+		//doorToOpen.Unlock ();
 
 		Destroy (gameObject);
-
-
     }
+
+	public bool isKeyCollected() {
+		return isCollected;
+	}
 
 }

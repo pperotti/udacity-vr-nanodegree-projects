@@ -4,23 +4,32 @@ using UnityEngine;
 
 public class Door : MonoBehaviour 
 {
-    // Create a boolean value called "locked" that can be checked in Update() 
+	public Key key;
+
+	// Create a boolean value called "locked" that can be checked in Update() 
+	bool isLocked = true;
 
     void Update() {
         // If the door is unlocked and it is not fully raised
-            // Animate the door raising up
+        // Animate the door raising up
+		if (key.isKeyCollected ()) {
+			isLocked = false;
+			Unlock ();
+		}
     }
 
     public void Unlock()
     {
         // You'll need to set "locked" to true here
-		Debug.Log("Unlock");
+		Debug.Log("Unlock isLocked=" + isLocked);
+
+		if (isLocked) {
+			return;
+		}
 
 		gameObject.transform.position = new Vector3 (
 			gameObject.transform.position.x, 
 			gameObject.transform.position.y + 20, 
 			gameObject.transform.position.z);
-
-
     }
 }
