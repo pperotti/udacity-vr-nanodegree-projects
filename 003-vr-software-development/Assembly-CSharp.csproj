@@ -94,6 +94,7 @@
      <Compile Include="Assets\Udacity\Scripts\DieAfterSeconds.cs" />
      <Compile Include="Assets\Udacity\Scripts\Door.cs" />
      <Compile Include="Assets\Udacity\Scripts\Key.cs" />
+     <Compile Include="Assets\Udacity\Scripts\KeyInterceptor.cs" />
      <Compile Include="Assets\Udacity\Scripts\SignPost.cs" />
      <Compile Include="Assets\Udacity\Scripts\Waypoint.cs" />
      <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
