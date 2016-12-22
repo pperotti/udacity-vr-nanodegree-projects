@@ -1,0 +1,31 @@
+In my post I decided to review 2 applications only because both are very good:
+
+* SAMSUNG INTERNET
+Brief Description
+This application let the user browse the Internet from the phone while using VR Headsets. 
+
+PROS
+- The mood when you open this application set you in a comfortable, quiet place suitable for reading the news in the morning. 
+- The way options are presented are well polished and simple once you get familiar with Samsung VR experience.
+- You can read a regular news paper without any trouble since the experience is like being sit in front a 60 inches TV at one maybe one and a half meters.
+- You can browse the web with your voice or soft keyboard presented on the screen. 
+
+CONS
+- This is only available for Samsung devices. 
+- For a non-tech user, it takes about 1 minutes to understand all the options before you want to actually start reading your news paper.
+
+* NETFLIX VR
+Brief Description
+Let the user watch movies inside your Samsung Gear device. 
+
+PROS
+* The experience goes along with the rest of Samsung Experience. 
+* The mood is awesome. 
+* Once you open Netflix, you can use it as you are in your phone / tablet or favorite device.
+
+CONS
+* Only available in Samsung.
+* Netflix VR is in Play Store but only in US for Non-samsung devices.
+
+POST URL: 
+https://discussions.udacity.com/t/vr-applications-review-samsung-internet-netflix-vr/205058 
