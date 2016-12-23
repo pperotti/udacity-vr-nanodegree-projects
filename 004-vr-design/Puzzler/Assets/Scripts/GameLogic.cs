@@ -9,7 +9,8 @@ public class GameLogic : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
+		startUI.SetActive (true);
+		restartUI.SetActive (false);
 	}
 
 	// Update is called once per frame
@@ -19,6 +20,7 @@ public class GameLogic : MonoBehaviour {
 
 	public void toggleUI() {
 		startUI.SetActive (!startUI.activeSelf);
-		restartUI.SetActive (!restartUI.activeSelf);
+		//restartUI.SetActive (!restartUI.activeSelf);
+		restartUI.SetActive (!startUI.activeSelf);
 	}
 }
