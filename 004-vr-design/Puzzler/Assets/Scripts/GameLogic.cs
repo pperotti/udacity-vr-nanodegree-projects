@@ -40,13 +40,13 @@ public class GameLogic : MonoBehaviour {
 
 
 	public void puzzleSuccess() { //Do this when the player gets it right
-		/*iTween.MoveTo (player, 
+		iTween.MoveTo (player, 
 			iTween.Hash (
 				"position", restartPoint.transform.position, 
 				"time", 2, 
 				"easetype", "linear"
 			)
-		);*/
+		);
 	}
 	public void toggleUI() {
 		startUI.SetActive (!startUI.activeSelf);

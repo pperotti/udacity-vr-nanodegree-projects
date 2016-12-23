@@ -1,3 +1,7 @@
+/Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
+/Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
+/Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/obj/Debug/Assembly-CSharp-firstpass.dll
+/Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/obj/Debug/Assembly-CSharp-firstpass.dll.mdb
 /Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/Temp/bin/Debug/UnityEngine.dll
 /Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/Temp/bin/Debug/UnityEditor.dll
 /Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/Temp/bin/Debug/UnityEngine.Networking.dll
@@ -12,9 +16,3 @@
 /Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/Temp/bin/Debug/Unity.CecilTools.dll
 /Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/Temp/bin/Debug/Mono.Cecil.Pdb.dll
 /Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/Temp/bin/Debug/Mono.Cecil.Mdb.dll
-/Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/Temp/bin/Debug/Assembly-CSharp.dll.mdb
-/Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/Temp/bin/Debug/Assembly-CSharp.dll
-/Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/obj/Debug/Assembly-CSharp.dll
-/Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/obj/Debug/Assembly-CSharp.dll.mdb
-/Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/Temp/bin/Debug/Assembly-CSharp-firstpass.dll
-/Users/pperotti/Github/udacity-vr-nanodegree-projects/004-vr-design/Puzzler/Temp/bin/Debug/Assembly-CSharp-firstpass.dll.mdb
