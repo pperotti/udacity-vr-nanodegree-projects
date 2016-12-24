@@ -14,8 +14,6 @@ The following link shows how the project works after the development was complet
 
 [![PUZZLER GAME](https://github.com/pperotti/udacity-vr-nanodegree-projects/blob/master/004-vr-design/Documentation/Raw%20Material/Warehouse-Inside-forest.png)](https://youtu.be/NJ8CFIhz1Iw "PUZZLER GAME")
 
-[![PUZZLER GAME](http://img.youtube.com/vi/StTqXEQ2l-Y/0.jpg)](https://www.youtube.com/watch?v=StTqXEQ2l-Y "Everything Is AWESOME")
-
 ### INITIAL SCREEN AFTER THE GAME IS STARTED
 [![Start Panel](https://github.com/pperotti/udacity-vr-nanodegree-projects/blob/master/004-vr-design/Documentation/Raw%20Material/PUZZLER%20-%20Start%20Panel.png "Start Panel")](https://github.com/pperotti/udacity-vr-nanodegree-projects/blob/master/004-vr-design/Documentation/Raw%20Material/PUZZLER%20-%20Start%20Panel.png "Start Panel")
 
