@@ -19,11 +19,16 @@ public class GameLogic : MonoBehaviour {
 
 	private int currentSolveIndex = 0; //Temporary variable for storing the index that the player is solving for in the pattern.
 
+	public AudioSource audioFail, audioSuccess, audioSelected;
 
 	// Use this for initialization
 	void Start () {
 		puzzleOrder = new int[puzzleLength]; //Set the size of our array to the declared puzzle length
-		generatePuzzleSequence (); //Generate the puzzle sequence for this playthrough.  
+		generatePuzzleSequence (); //Generate the puzzle sequence for this playthrough. 
+
+		audioFail.enabled = false;
+		audioSuccess.enabled = false;
+		audioSelected.enabled = false;
 	}
 
 	// Update is called once per frame
@@ -51,6 +56,11 @@ public class GameLogic : MonoBehaviour {
 		if (playerSelectionIndex == puzzleOrder [currentSolveIndex]) { //Check if the index of the object the player passed is the same as the current solve index in our solution array
 			currentSolveIndex++;
 			Debug.Log ("Correct!  You've solved " + currentSolveIndex + " out of " + puzzleLength);
+
+			//Add sound when things are correct
+			audioSelected.enabled = true;
+			audioSelected.Play(); 
+
 			if (currentSolveIndex >= puzzleLength) {
 				puzzleSuccess ();
 			}
@@ -127,6 +137,9 @@ public class GameLogic : MonoBehaviour {
 	public void puzzleFailure() { //Do this when the player gets it wrong
 		Debug.Log("You've Failed, Resetting puzzle");
 
+		audioFail.enabled = true;
+		audioFail.Play (); 
+
 		currentSolveIndex = 0;
 
 		startPuzzle ();
@@ -143,10 +156,12 @@ public class GameLogic : MonoBehaviour {
 				"oncompletetarget", this.gameObject
 			)
 		);
+
+		audioSuccess.enabled = true;
+		audioSuccess.Play ();
 	}
 
-	public void finishingFlourish() { //A nice visual flourish when the player wins
-		//this.GetComponent<AudioSource>().Play(); //Play the success audio
+	public void finishingFlourish() { //A nice visual flourish when the player wins		
 		restartUI.SetActive (true);
 		playerWon = true;
 
