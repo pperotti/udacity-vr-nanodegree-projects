@@ -12,7 +12,7 @@ As part of this project, a new Unity project was created from scratch, importing
 
 The following link shows how the project works after the development was completed.
 
-`<iframe width="560" height="315" src="https://www.youtube.com/embed/NJ8CFIhz1Iw" frameborder="0" allowfullscreen></iframe>`
+[![PUZZLER GAME](https://github.com/pperotti/udacity-vr-nanodegree-projects/blob/master/004-vr-design/Documentation/Raw%20Material/Warehouse-Inside-forest.png "WAREHOUSE INSIDE FOREST)](https://youtu.be/NJ8CFIhz1Iw "PUZZLER GAME")
 
 ### INITIAL SCREEN AFTER THE GAME IS STARTED
 [![Start Panel](https://github.com/pperotti/udacity-vr-nanodegree-projects/blob/master/004-vr-design/Documentation/Raw%20Material/PUZZLER%20-%20Start%20Panel.png "Start Panel")](https://github.com/pperotti/udacity-vr-nanodegree-projects/blob/master/004-vr-design/Documentation/Raw%20Material/PUZZLER%20-%20Start%20Panel.png "Start Panel")
