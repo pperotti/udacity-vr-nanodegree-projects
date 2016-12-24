@@ -14,10 +14,12 @@ The following link shows how the project works after the development was complet
 
 [![PUZZLER GAME](https://github.com/pperotti/udacity-vr-nanodegree-projects/blob/master/004-vr-design/Documentation/Raw%20Material/Warehouse-Inside-forest.png)](https://youtu.be/NJ8CFIhz1Iw "PUZZLER GAME")
 
-### INITIAL SCREEN AFTER THE GAME IS STARTED
-[![Start Panel](https://github.com/pperotti/udacity-vr-nanodegree-projects/blob/master/004-vr-design/Documentation/Raw%20Material/PUZZLER%20-%20Start%20Panel.png "Start Panel")](https://github.com/pperotti/udacity-vr-nanodegree-projects/blob/master/004-vr-design/Documentation/Raw%20Material/PUZZLER%20-%20Start%20Panel.png "Start Panel")
+## WHAT ABOUT THE DOCUMENTATION DETAILS? 
+Inside Documentation you will find a PDF with all the documentation about how the process was created (inside a folder named RAW MATERIAL). 
 
-### THE WAREHOUSE IN THE MIDDLE OF THE FOREST
-[![WAREHOUSE INSIDE FOREST](https://github.com/pperotti/udacity-vr-nanodegree-projects/blob/master/004-vr-design/Documentation/Raw%20Material/Warehouse-Inside-forest.png "WAREHOUSE INSIDE FOREST")](https://github.com/pperotti/udacity-vr-nanodegree-projects/blob/master/004-vr-design/Documentation/Raw%20Material/Warehouse-Inside-forest.png "WAREHOUSE INSIDE FOREST")
+If you don’t like reading PDFs, you can find the Google Doc link with the information
+https://docs.google.com/document/d/10kEObyYv0rX_l7K4RL66SKNO2-xcEY8EOVrUKhV4m1w/edit?usp=sharing
 
+# WHAT ABOUT THE CODE
+All the project is contained within the PUZZLER folder inside this repo.
 
