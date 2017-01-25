@@ -71,14 +71,12 @@
      <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
      <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoUnlitGrayscaleToColor.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
+     <None Include="Assets\Haruko\ReadMe.txt" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlay.shader" />
      <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
      <None Include="Assets\GoogleVR\Legacy\Resources\SolidColor.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnityCompatibility.cginc" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoStereoShader.shader" />
- <Reference Include="UnityEngine.Advertisements">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -120,9 +118,6 @@
  </Reference>
  <Reference Include="UnityEngine.HoloLens">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Purchasing">
- <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityPurchasing/UnityEngine.Purchasing.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.VR">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll</HintPath>
