@@ -3,6 +3,9 @@
 #Introduction
 The application area that was chosen for creating an application at this time is education. The selected topic to teach to the potential students are the different Lion subspecies that currently exists in the world. The reason why this was chosen was because I have personal 360 material created during a safari with Lions a few months ago. Unfortunately there is no free 360 player that could be used for this project. Due to these restrictions 360 images and videos couldn't be used which would have increased the quality of the final application considerably.
 
+#Screenshots
+The Screenshots directory created inside the Unity project contains 7 screenshots, 1 for instructions, 1 per station (one view inside this station), another screenshot about the environment and two screenshots about the development environment with the opened project. 
+
 #Credits
 All the information used in this video was extracted from https://en.wikipedia.org/wiki/Lion.
 
